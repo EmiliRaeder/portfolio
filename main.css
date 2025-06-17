@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=DM+Serif+Text:ital@0;1&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 /* =================================
    GLOBAL STYLES
 =================================== */
+
 :root {
     --espresso: #3d2719;
     --CREAM: #F5F1E7;
@@ -10,7 +12,6 @@
     --bluegray: #8293AE;
     --green: #65755F;
     --BIGRED: #FD2525;
-
   }
   
  h1 { 
@@ -56,6 +57,8 @@ h3 {
     font-weight: auto;
     font-style: normal;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
    }
 
 

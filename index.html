@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-<link rel="apple-touch-icon" sizes="180x180" href="ER-favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="ER-favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="ER-favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="ER-favicon/favicon-16x16.png">
 <link rel="manifest" href="ER-favicon/site.webmanifest">
@@ -10,8 +10,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emili Raeder</title>
     <link rel="stylesheet" href="main.css">
+
 </head>
-<body class="dark-theme">      
+<body class="dark-theme">   
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+			    </filter>
+			  </defs>
+			</svg>
+				<div id="button" class="HoverButton">
+				</div>
+<!-- The above is the light theme code -->
+   
+
+
   <div class="hero">
     <div class="hero-content">
       <p>37 second glance?</p>
@@ -29,7 +44,8 @@
   </div>
  </div>  
 </div>
-        
+
+     
 </body>
 </html>
 
